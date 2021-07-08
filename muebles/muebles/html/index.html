@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jaguarete KAA S.A</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+ 
+<header id="header" class="header">
+    <div class="col-xl-4 col-md-6 col-sm-4-offset-4">
+                    <div class="d-grid gap-2 d-sm-flex col-sm-6 mx-auto justify-content-center m-2">
+                            <a href="/accounts/login/" class="btn" role="button">Login</a>
+                            <a href="/registro/" class="btn" role="button">Registro</a>
+                     </div>
+    </div>
+          
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logo.jpg" id="logo">
+            </div>
+
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+     
+    </div>
+</header>
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                                <h2>Muebles para el hogar</h2>
+                                <p>Ofertas durante el mes de Julio 2021</p>
+                                <form action="#" id="busqueda" method="post" class="formulario">
+                                    <input class="u-full-width" type="text" placeholder="¿Que mueble te gustaría buscar?" id="buscador">
+                                    <input type="submit" id="submit-buscador" class="submit-buscador">
+                                </form>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorias
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/acerca_de/">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:viajero.runner@gmail.com" tabindex="-1" aria-disabled="true">Contactenos</a>
+                        </li>
+                        <li class="nav-item">
+                            
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>Últimos productos en línea <br>
+                        Busca las ofertas del 50%</p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>Muebles para salas <br>
+                        Para la cocina, para los libros</p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>Duran para toda la vida <br>
+                        Agrega al carrito</p>
+                    </div>
+
+                   
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">JAGUARETE KAA S.A</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/1.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Sala Esquinera House Contemporánea 2 Piezas</h4>
+                        <p>Categoría Salas</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$1500  <span class="u-pull-right ">$750</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/2.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Cómoda Mobi 4 Cajones Plus Chocolate 78.4 cm</h4>
+                            <p>Categoría Salas</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$500  <span class="u-pull-right ">$250</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/3.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Mueble para TV Regina color Café</h4>
+                            <p>Categoría Salas</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$600  <span class="u-pull-right ">$300</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/4.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Cama Osslo Matrimonial</h4>
+                        <p>Categoría Recamara</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$1200  <span class="u-pull-right ">$600</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/5.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Antecomedor de 6 sillas</h4>
+                            <p>Categoría Cocina</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$800  <span class="u-pull-right ">$400</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/6.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Sillón Reclinable Alicia Cafés</h4>
+                            <p>Categoría Salas</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$900  <span class="u-pull-right ">$450</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/7.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Sofá Cama Albi Gris</h4>
+                        <p>Categoría Salas</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$900  <span class="u-pull-right ">$450</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/8.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Cantina Muebles De Bar Minimalistas Mod Tucson Con Bancos</h4>
+                            <p>Categoría Salas</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$1000  <span class="u-pull-right ">$500</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/9.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Ropero Mobi Firenze Chocolate 152 cm</h4>
+                            <p>Categoría Recamara</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$1100  <span class="u-pull-right ">$550</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/10.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Alacena Mobi Maxi con 4 Puertas 4 Entrepaños y 1 Cajón
+                            </h4>
+                            <p>Categoría Cocina</p>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$850  <span class="u-pull-right ">$425</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/11.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>Cocina integral</h4>
+                                <p>Categoría Cocina</p>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$3000  <span class="u-pull-right ">$1500</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/12.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>Alacena con espacio para horno de microondas</h4>
+                                <p>Categoría Cocina</p>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$1300  <span class="u-pull-right ">$650</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>  
+<footer class="row p-4 text-white" style="background-color: #FF5733;">
+            <div class="col-md-3 col-sm-12 text-center p-2">
+                JAGUARETE KAA S.A
+            </div>
+            <div class="col-md-6 col-sm-12 text-center p-2">
+                Copyright 2021. Todos los derechos reservados
+            </div>
+            <div class="col-md-3 col-sm-12 text-center p-2">
+                Sitio desarrollado por <a href="www.jaguarete.com.ar.ar" target="blank">@ViajeroRunner</a>
+            </div>
+        </footer>
+        
+     <script src="js/app.js"></script>
+
+</body>
+</html>
