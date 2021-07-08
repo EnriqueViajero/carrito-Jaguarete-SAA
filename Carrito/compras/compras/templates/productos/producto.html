@@ -1,0 +1,23 @@
+{% extends "productos/layout.html" %}
+{% block body %}
+<h2>Productos</h2>
+<h3>Lista de Productos</h3>
+<ul>
+    {% for un_producto in producto %}
+        <li>{{ un_producto }}</li>
+    {% empty %}
+        <li>No hay productos registrados.</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'compras:index' %}">Volver a la lista</a>
+<h3>Apartar</h3>
+<form action="{% url 'compras:reserva' producto.id %}" method="post">
+    {% csrf_token %}
+    <select name="producto" id="">
+        {% for un_producto in no_son_producto %}
+            <option value="{{ un_producto.id }}">{{ un_producto }}</option>
+        {% endfor %}
+    </select>
+    <input type="submit" value="Apartar">
+</form>
+{% endblock %}

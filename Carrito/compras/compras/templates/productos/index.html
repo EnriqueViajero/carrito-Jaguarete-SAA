@@ -1,0 +1,10 @@
+{% extends "productos/layout.html" %}
+{% block body %}
+    <h1>Productos</h1>
+    <ul>
+        {% for un_producto in lista_productos %}
+            <li><a href="{% url 'compras:producto' un_producto.id %}">Ver producto #{{un_producto.id}}</a> <a href="{% url 'compras:producto_modificar' un_producto.id %}">Editar</a> <a href="{% url 'compras:producto_eliminar' un_producto.id %}">Eliminar</a>: {{un_producto.id}} hacia {{un_producto.id}}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'compras:producto_alta'%}">Alta de Producto</a>
+{% endblock %}
